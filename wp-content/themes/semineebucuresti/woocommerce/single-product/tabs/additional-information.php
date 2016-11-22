@@ -26,10 +26,17 @@ $heading = apply_filters( 'woocommerce_product_additional_information_heading', 
 
 ?>
 
-<?php if ( $heading ): ?>
-	<h3><?php echo $heading; ?></h3>
-<?php endif; ?>
+<?php
+// Get product attributes
+$attributes = $product->get_attributes();
 
+if ( $attributes ) {
+    if ( $heading ):
+	echo '<h3>'.$heading.'</h3>';
+    endif;   
+}
+?>
+        
 <?php $product->list_attributes(); ?>
 
         <div style="clear: both;"></div>    
