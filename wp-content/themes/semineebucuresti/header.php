@@ -32,7 +32,7 @@
             
             <div class="col-md-4 text-right">                
                 <ul class="top-links">
-                    <!--<li class="first"><a href="<?php bloginfo('url');?>/category/bine-de-stiut">BINE DE STIUT</a> | </li>-->
+                    <li class="first"><a href="<?php bloginfo('url');?>/category/bine-de-stiut">BINE DE STIUT</a> | </li>
                     <li><a href="<?php bloginfo('url');?>/categorie-produs/ultimele-montaje">ULTIMELE MONTAJE</a> | </li>
                     <li><a href="<?php bloginfo('url');?>/contact">CONTACT</a></li>
                 </ul>       
