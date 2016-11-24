@@ -5,7 +5,7 @@
         <div class="blog-category-wrapper">
         <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post(); ?>
-                <div class="col-md-4" style="margin-bottom: 2em;">
+                <div class="col-md-4" style="margin-bottom: 2em; text-align: center;"> 
                     <?php
                         $thumbnail_id = get_post_thumbnail_id();
                         $thumbnail_url = wp_get_attachment_image_src ( $thumbnail_id, 'thumbnail-size', true );
