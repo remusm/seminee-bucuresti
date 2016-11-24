@@ -819,6 +819,7 @@ input[type="color"]:focus,
 
 .excerpt {
     text-align: center;
+    height: 60px;
 }
 
 /* DOWNLOADS */

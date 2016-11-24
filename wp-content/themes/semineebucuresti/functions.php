@@ -1,5 +1,6 @@
 <?php
-                        
+
+load_theme_textdomain( 'semineebucuresti', TEMPLATEPATH.'/languages' );                        
 add_theme_support ( 'menus' );
 
 /**

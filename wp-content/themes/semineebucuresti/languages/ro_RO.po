@@ -1367,6 +1367,9 @@ msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr "Categorie"
 
+msgid "category"
+msgstr "categorie"
+
 #: wp-includes/taxonomy.php:596
 msgctxt "taxonomy singular name"
 msgid "Tag"
@@ -8427,9 +8430,6 @@ msgstr[2] "%s de subiecte"
 #: wp-includes/widgets/class-wp-widget-categories.php:48
 msgid "Categories"
 msgstr "Categorii"
-
-msgid "category"
-msgstr "categorie"
 
 #: wp-includes/category-template.php:563 wp-includes/taxonomy.php:611
 msgid "No categories"
