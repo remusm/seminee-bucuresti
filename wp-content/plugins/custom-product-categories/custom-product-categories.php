@@ -42,7 +42,10 @@ function custom_product_categories ( $args = array() ) {
                                     'value'         => array('catalog', 'visible'),
                                     'compare'       => 'IN'
                                 )
-                            ),
+                            ),                            
+                            'orderby'   => 'meta_value_num',
+                            'meta_key'  => '_price',
+                            'order' => 'asc',
                             'tax_query'             => array(
                                 array(
                                     'taxonomy'      => 'product_cat',
