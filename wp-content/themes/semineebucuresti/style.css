@@ -264,8 +264,8 @@ input[type="color"]:focus,
 }
 
 .sub-menu li {
-    width: 25%;
-    height: 218px;
+    width: 20%;
+    height: 190px;
     float: left;
     padding: 5px;
 }
